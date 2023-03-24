@@ -1,0 +1,155 @@
+.crmContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.crmInfo{
+  width: 50%;
+  //.crmInfoTitle{
+  //  font-size: 40px;
+  //}
+  .crmInformation{
+    color:#409eef
+  }
+  //.btnContainer{
+  //  button{
+  //    background-color: #bdf300;
+  //    height: 50px;
+  //    width: 220px;
+  //    border-radius: 27px;
+  //  }
+  //}
+}
+.crmImg{
+  width: 50%;
+  img{
+    height: 700px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .crmContainer{
+    display: flex;
+
+  }
+  .crmInfoTitle{
+    font-size: 40px;
+  }
+  .crmInformation{
+    padding: 20px 0;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .collaborationImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .crmContainer{
+    display: flex;
+   flex-direction: column-reverse;
+
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .crmInfo{
+    padding: 20px 0;
+    width: 100%;
+    .crmInfoTitle{
+      font-size: 35px;
+    }
+    .crmInformation{
+      padding: 20px 0;
+    }
+  }
+  .crmImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .crmContainer{
+    display: flex;
+    flex-direction: column-reverse;;
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .crmInfoTitle{
+    font-size: 30px;
+
+  }
+  .crmInformation{
+    padding: 20px 0;
+    width: 100%;
+
+  }
+  .crmImg{
+    width: 100%;
+    img{
+      min-height: 200px;
+      min-width: 200px;
+      object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .crmContainer{
+    display: flex;
+    flex-direction: column-reverse;;
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .crmInfoTitle{
+    font-size: 25px;
+  }
+  .crmInformation{
+    padding: 20px 0;
+    width: 100%;
+  }
+  .crmImg{
+    width: 100%;
+    img{
+      min-height: 200px;
+      min-width: 200px;
+      //object-fit: contain;
+    }
+  }
+}

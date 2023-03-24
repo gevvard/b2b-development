@@ -1,0 +1,157 @@
+.taskContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.taskInfo{
+  width: 50%;
+  .taskInfoTitle{
+    font-size: 40px;
+  }
+  .taskInformation{
+    color:#409eef
+  }
+  //.btnContainer{
+  //  button{
+  //    background-color: #bdf300;
+  //    height: 50px;
+  //    width: 220px;
+  //    border-radius: 27px;
+  //  }
+  //}
+}
+.taskImg{
+  width: 50%;
+  img{
+    height: 700px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .taskContainer{
+    display: flex;
+
+  }
+
+  .taskInfoTitle{
+    font-size: 40px;
+  }
+  .taskInformation{
+    padding: 20px 0;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .taskImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .taskContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .taskInfo {
+    width: 100%;
+    .taskInfoTitle {
+      font-size: 40px;
+    }
+
+    .taskInformation {
+      padding: 20px 0;
+    }
+  }
+  .taskImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .taskContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .taskInfo {
+    width: 100%;
+    .taskInfoTitle {
+      font-size: 40px;
+    }
+
+    .taskInformation {
+      padding: 20px 0;
+    }
+  }
+  .taskImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 70%;
+      object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .taskContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .taskInfo {
+    width: 100%;
+    .taskInfoTitle {
+      font-size: 20px;
+    }
+
+    .taskInformation {
+      padding: 20px 0;
+    }
+  }
+  .taskImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 100%;
+      object-fit: contain;
+    }
+  }
+}

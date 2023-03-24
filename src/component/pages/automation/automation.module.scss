@@ -1,0 +1,157 @@
+.automationContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.automationInfo{
+  width: 50%;
+  .automationInfoTitle{
+    font-size: 40px;
+  }
+  .automationInformation{
+    color:#409eef
+  }
+  //.btnContainer{
+  //  button{
+  //    background-color: #bdf300;
+  //    height: 50px;
+  //    width: 220px;
+  //    border-radius: 27px;
+  //  }
+  //}
+}
+.automationImg{
+  width: 50%;
+  img{
+    height: 700px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .automationContainer{
+    display: flex;
+
+  }
+
+  .automationInfoTitle{
+    font-size: 40px;
+  }
+  .automationInformation{
+    padding: 20px 0;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .automationImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .automationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .automationInfo {
+    width: 100%;
+    .automationInfoTitle {
+      font-size: 40px;
+    }
+
+    .automationInformation {
+      padding: 20px 0;
+    }
+  }
+  .automationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .automationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .automationInfo {
+    width: 100%;
+    .automationInfoTitle {
+      font-size: 40px;
+    }
+
+    .automationInformation {
+      padding: 20px 0;
+    }
+  }
+  .automationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 70%;
+      object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .automationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .automationInfo {
+    width: 100%;
+    .automationInfoTitle {
+      font-size: 20px;
+    }
+
+    .automationInformation {
+      padding: 20px 0;
+    }
+  }
+  .automationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 100%;
+      object-fit: contain;
+    }
+  }
+}

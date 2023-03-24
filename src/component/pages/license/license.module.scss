@@ -1,0 +1,171 @@
+.licenseContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+ border-radius: 15px;
+  background-color: #f4fdd9;
+
+}
+.licenseInfo{
+  margin-left: 70px;
+  width: 50%;
+  .licenseInfoTitle{
+    font-size: 40px;
+  }
+  .licenseInformation{
+    color:black;
+  }
+  //.btnContainer{
+  //  button{
+  //    background-color: #bdf300;
+  //    height: 50px;
+  //    width: 220px;
+  //    border-radius: 27px;
+  //  }
+  //}
+}
+.licenseImg{
+  width: 50%;
+  img{
+    height: 400px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .licenseContainer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .licenseInfoTitle{
+    font-size: 40px;
+  }
+  .licenseInformation{
+    padding: 20px 0;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .licenseImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 100%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .licenseContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .licenseInfo {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    .licenseInfoTitle {
+      font-size: 40px;
+    }
+
+    .licenseInformation {
+      padding: 20px 0;
+      //width: 100%;
+    }
+  }
+  .licenseImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 100%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .licenseContainer{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .licenseInfo {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    .licenseInfoTitle {
+      font-size: 30px;
+    }
+
+    .licenseInformation {
+      padding: 20px 0;
+      //width: 100%;
+    }
+  }
+  .licenseImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .licenseContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .licenseInfo {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+    .licenseInfoTitle {
+      font-size: 20px;
+    }
+
+    .licenseInformation {
+      padding: 20px 0;
+      width: 70%;
+    }
+  }
+  .licenseImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 100%;
+      object-fit: contain;
+    }
+  }
+}

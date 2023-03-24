@@ -1,0 +1,113 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .infoText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 10px 0;
+  }
+  .bitrixCategory{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    li{
+      border: 1px solid hsla(208, 85%, 69%, 1);
+      color: hsla(208, 85%, 69%, 1);
+      height: 30px;
+      border-radius: 20px;
+      padding: 10px;
+
+
+    }
+    li:hover{
+    background-color:hsla(208, 85%, 69%, 1);
+      color: white;
+    }
+  }
+  .bitrix24img{
+    max-width: 68%;
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+
+  }
+}
+// media
+@media only screen and (max-width: 4000px) {
+  .title{
+    font-size: 50px;
+  }
+  .infoText{
+      font-size: 22px;
+
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .title{
+    font-size: 40px;
+  }
+  .bitrix24img{
+    width: 68%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+  .infoText{
+    //text-align: center;
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 950px) {
+ul>li{
+  display: none;
+
+}
+  .bitrix24img{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  ul>li{
+    display: none;
+
+  }
+ h1{
+    font-size: 10px;
+  }
+  .bitrix24img{
+    height: auto;
+  }
+  .title{
+    font-size: 30px;
+  }
+  .infoText{
+  //text-align: center;
+    font-size: 16px;
+  }
+}@media only screen and (max-width: 320px) {
+  ul>li{
+    display: none;
+
+  }
+  .title{
+    font-size: 18px;
+  }
+  .infoText{
+    font-size: 14px;
+  }
+}

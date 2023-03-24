@@ -1,0 +1,162 @@
+.websiteContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.websiteInfo{
+  width: 50%;
+  .websiteInfoTitle{
+    font-size: 40px;
+  }
+  .websiteInformation{
+    color:#409eef
+  }
+  //.btnContainer{
+  //  button{
+  //    background-color: #bdf300;
+  //    height: 50px;
+  //    width: 220px;
+  //    border-radius: 27px;
+  //  }
+  //}
+}
+.websiteImg{
+  width: 50%;
+  img{
+    height: 700px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .websiteContainer{
+    display: flex;
+
+  }
+  .websiteInfoTitle{
+    font-size: 40px;
+  }
+  .websiteInformation{
+    padding: 20px 0;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .websiteImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .websiteContainer{
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .websiteInfo{
+    padding: 20px 0;
+    width: 100%;
+    .websiteInfoTitle{
+      font-size: 35px;
+    }
+    .websiteInformation{
+      padding: 20px 0;
+    }
+  }
+  .websiteImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .websiteContainer{
+    display: flex;
+    flex-direction: column-reverse;;
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .websiteInfoTitle{
+    font-size: 30px;
+
+  }
+  .websiteInformation{
+    padding: 20px 0;
+    width: 100%;
+
+  }
+  .websiteImg{
+    width: 100%;
+    img{
+      min-height: 200px;
+      min-width: 200px;
+      object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .websiteContainer{
+    display: flex;
+    flex-direction: column-reverse;;
+
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .websiteInfoTitle{
+    font-size: 25px;
+  }
+  .websiteInformation{
+    padding: 20px 0;
+    width: 100%;
+  }
+  .websiteImg{
+    width: 100%;
+    img{
+      min-height: 200px;
+      min-width: 200px;
+      //object-fit: contain;
+    }
+  }
+  .btnContainer>button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+}

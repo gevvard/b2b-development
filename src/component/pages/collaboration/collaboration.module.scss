@@ -1,0 +1,138 @@
+.collaborationContainer{
+  width: 68%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.collaborationInfo{
+  width: 50%;
+
+  .collaborationInformation{
+    color:#409eef
+  }
+
+}
+.collaborationImg{
+  width: 50%;
+  img{
+    min-height: 250px;
+    max-width: 70%;
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 4000px) {
+  .collaborationContainer{
+    display: flex;
+
+  }
+  .collaborationInfoTitle{
+    font-size: 40px;
+  }
+  .collaborationInformation{
+    padding: 20px 0;
+  }
+
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .collaborationImg{
+    width: 50%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .collaborationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 150px;
+    border-radius: 27px;
+    border: 0;
+    font-weight: bold;
+  }
+  .collaborationInfoTitle{
+    font-size: 35px;
+  }
+  .collaborationInformation{
+    padding: 20px 0;
+  }
+  .collaborationInfo{
+    width: 100%;
+  }
+  .collaborationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      max-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .collaborationContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  .collaborationInfo{
+    width: 100%;}
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 40px;
+    width: 140px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .collaborationInfoTitle{
+    font-size: 30px;
+  }
+  .collaborationInformation{
+    padding: 20px 0;
+  }
+  .collaborationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .btnContainer button{
+    background-color: #bdf300;
+    height: 30px;
+    width: 120px;
+    border-radius: 27px;
+    border: 0;
+  }
+  .collaborationInfo{
+    width: 100%;}
+  .collaborationInfoTitle{
+    font-size: 25px;
+  }
+  .collaborationInformation{
+    padding: 20px 0;
+  }
+  .collaborationImg{
+    width: 100%;
+    img{
+      min-height: 250px;
+      min-width: 70%;
+      //object-fit: contain;
+    }
+  }
+}

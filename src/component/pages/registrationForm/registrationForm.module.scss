@@ -1,0 +1,72 @@
+.registrationForm{
+background-color: #13395c;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  padding-top: 70px;
+}
+.registrationForm {
+}
+// .registrationForm:before {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 51%;
+//   background: red;
+//   transform: skew(0deg, 6deg);
+// }
+.registrationForm:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 70px solid white;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+}
+.form{
+  box-shadow: 0 4px 18px 0 rgba(0,0,0,.3);
+  width: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #defefb;
+  input{
+    width: 500px;
+    height: 40px;
+    background-color: #13395c;
+    margin: 10px 0;
+    border: 0;
+    font-size: 25px;
+  }
+  textarea{
+    width: 500px;
+    background-color: #13395c;
+    margin: 10px 0;
+    border: 0;
+    font-size: 25px;
+  }
+  button{
+    width: 500px;
+    background-color: white;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 25px;
+    height: 40px;
+  }
+  span{
+    //display: flex;
+    //justify-content: flex-end;
+    //margin-left: 55px;
+    margin:auto 0;
+  }
+}
